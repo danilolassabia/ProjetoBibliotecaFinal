@@ -1,0 +1,193 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+#body {
+    background-color: #E6E6E6;
+}
+
+#logo {
+    width: 60px;
+    padding-left: 20px;
+    margin-bottom: -3px;
+}
+
+#header {
+    background-color: #1F2A44;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#header-title{
+    color: white;
+    margin-left: 10px;
+}
+
+#section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+#section-title {
+    padding-top: 30px;
+}
+
+#form {
+    margin-top: 30px;
+    padding: 30px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c6bcff;
+    border-radius: 15px;
+}
+
+.label {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.input {
+    padding: 2px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+#button-login {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: medium;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#button-login:hover {
+    background-color: #ff9d0a;
+    color: white;
+}
+
+#register-link {
+    margin-top: 20px;
+    color: blue;
+}
+
+#register-link:hover {
+    color: black;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2A44;
+    width: 100%;
+    height: 30px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #ff9d0a;
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: black;
+    background-color: white;
+}
+
+#back-button {
+    position: absolute;
+    left: 0px;
+    margin: 20px 15px 15px 20px;
+}
+
+#delete-button{
+    margin-left: 5px;
+}
+
+#delete-button:hover {
+    color: white;
+    background-color: rgb(240, 40, 40);
+}
+
+#logout-button{
+    color: white;
+    background-color: #ff9d0a;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+}
+
+#logout-button:hover{
+    color: black;
+    background-color: white;
+}
+
+#table {
+    background-color: #1F2A44;
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: fit-content;
+    min-width:60vw;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.table-data {
+    background-color: #c6bcff;
+    border: 1px solid white;
+    padding: 20px 0;
+}
+
+.table-head {
+    background-color: #1F2A44;
+    border: 1px solid white;
+    padding: 20px 0;
+    color: white;
+}
+
+#modal{
+    background-color: #c6bcff;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+#modal-title{
+    margin-bottom: 30px;
+}
+
+#confirm-button{
+    border: solid 1px green;
+    background-color: white;
+    color: black;
+
+}
+
+#confirm-button:hover{
+    background-color: rgb(42, 183, 42);
+    color: white;
+}
+
+#cancel-button{
+    border: solid 1px red;
+    background-color: white;
+    color: black;
+}
+
+#cancel-button:hover{
+    background-color: rgb(240, 68, 68);
+    color: white;
+}
